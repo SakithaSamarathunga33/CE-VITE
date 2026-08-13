@@ -14,7 +14,9 @@
   <img src="https://img.shields.io/badge/chart.js-F5788D.svg?style=for-the-badge&logo=chart.js&logoColor=white" />
 </div>
 
+*If this project is useful to you, consider giving it a star ⭐*
 <p align="center">
+  
   <img src="https://images.unsplash.com/photo-1584302179602-e4c3d3fd629d?ixlib=rb-4.0.3" alt="Jewelry Banner" width="1200" height="400" />
 </p>
 
@@ -58,6 +60,32 @@ A comprehensive MERN stack application for managing jewelry and gem inventory, c
 - **Mongoose**: MongoDB object modeling for Node.js
 - **JWT**: Secure authentication with JSON Web Tokens
 - **Multer**: Handling multipart/form-data for file uploads
+
+## 🚀 Installation & Setup
+
+### Prerequisites
+- Node.js (v14 or higher)
+- MongoDB
+- npm or yarn
+
+### Backend Setup
+```bash
+git clone https://github.com/SakithaSamarathunga33/CRYSTAL-ELEGANCE.git
+cd CRYSTAL-ELEGANCE/backend
+npm install
+cp .env.example .env
+# Edit .env with your MongoDB connection string and JWT secret
+npm start
+```
+
+### Frontend Setup
+```bash
+cd CRYSTAL-ELEGANCE/frontend
+npm install
+npm start
+```
+
+Visit http://localhost:3000 to use the app. The API runs on http://localhost:5000 by default.
 
 ## 📁 Project Structure
 
